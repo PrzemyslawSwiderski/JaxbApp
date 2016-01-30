@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="zad2.css" ?>
+<płytoteka xmlns="http://moj.pl/xmlschemat"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+           xs:noNamespaceSchemaLocation="zad2.xsd">
+    <info>
+        <opis>
+            Dokument zawiera katalog płyt oraz listy wydawców i wykonawców w sklepie muzycznym.
+        </opis>
+        <autorzy>
+            <autor>
+                Damian Deska
+            </autor>
+            <autor>
+                Przemysław Świderski
+            </autor>
+        </autorzy>
+        <dataModyfikacji>2015-11-15</dataModyfikacji>
+    </info>
+    <katalogPłyt>
+        <płyta płytaID="p1" polska="tak" inniWykonawcyIDS="wyk1 wyk2 wyk3">
+            <tytuł>
+                METALLICA `91
+            </tytuł>
+            <artysta>
+                Metallica
+            </artysta>
+            <cena waluta="złotych">
+                32.00
+            </cena>
+            <dataWydania>
+                <dzień>
+                    11
+                </dzień>
+                <miesiąc>
+                    02
+                </miesiąc>
+                <rok>
+                    1996
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>43</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w1"/>
+            <gatunek nazwa="Rock"/>
+        </płyta>
+
+        <płyta płytaID="p2">
+            <tytuł>
+                CHOPIN PIANO CONCERTOS `09
+            </tytuł>
+            <artysta>
+                Rafał Blechacz
+            </artysta>
+            <cena waluta="złotych">
+                32.00
+            </cena>
+            <dataWydania>
+                <dzień>
+                    11
+                </dzień>
+                <miesiąc>
+                    02
+                </miesiąc>
+                <rok>
+                    2012
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>2</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w2"/>
+            <gatunek nazwa="Inny"/>
+        </płyta>
+
+        <płyta płytaID="p3" inniWykonawcyIDS="wyk5">
+            <tytuł>
+                Thriller
+            </tytuł>
+            <artysta>
+                Michael Jackson
+            </artysta>
+            <cena waluta="euro">
+                69.99
+            </cena>
+            <dataWydania>
+                <dzień>
+                    06
+                </dzień>
+                <miesiąc>
+                    06
+                </miesiąc>
+                <rok>
+                    1982
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>12</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w2"/>
+            <gatunek nazwa="Pop"/>
+        </płyta>
+
+        <płyta płytaID="p4">
+            <tytuł>
+                The Dark Side of the Moon
+            </tytuł>
+            <artysta>
+                Pink Floyd
+            </artysta>
+            <cena waluta="złotych">
+                100
+            </cena>
+            <dataWydania>
+                <dzień>
+                    10
+                </dzień>
+                <miesiąc>
+                    11
+                </miesiąc>
+                <rok>
+                    1973
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>76</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w2"/>
+            <gatunek nazwa="Rock"/>
+        </płyta>
+
+        <płyta płytaID="p5">
+            <tytuł>
+                Back in Black
+            </tytuł>
+            <artysta>
+                AC/DC
+            </artysta>
+            <cena waluta="złotych">
+                89.99
+            </cena>
+            <dataWydania>
+                <dzień>
+                    12
+                </dzień>
+                <miesiąc>
+                    01
+                </miesiąc>
+                <rok>
+                    1980
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>67</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w2"/>
+            <gatunek nazwa="Rock"/>
+        </płyta>
+
+        <płyta płytaID="p6">
+            <tytuł>
+                Bad
+            </tytuł>
+            <artysta>
+                Michael Jackson
+            </artysta>
+            <cena waluta="złotych">
+                129.99
+            </cena>
+            <dataWydania>
+                <dzień>
+                    09
+                </dzień>
+                <miesiąc>
+                    05
+                </miesiąc>
+                <rok>
+                    1987
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>23</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w2"/>
+            <gatunek nazwa="Pop"/>
+        </płyta>
+
+        <płyta płytaID="p7">
+            <tytuł>
+                The Bodyguard
+            </tytuł>
+            <artysta>
+                Whitney Houston
+            </artysta>
+            <cena waluta="złotych">
+                34.00
+            </cena>
+            <dataWydania>
+                <dzień>
+                    11
+                </dzień>
+                <miesiąc>
+                    11
+                </miesiąc>
+                <rok>
+                    1992
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>17</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w2"/>
+            <gatunek nazwa="Pop"/>
+        </płyta>
+
+        <płyta płytaID="p8">
+            <tytuł>
+                Bat Out of Helll
+            </tytuł>
+            <artysta>
+                Meat Loaf
+            </artysta>
+            <cena waluta="dolarów">
+                40.00
+            </cena>
+            <dataWydania>
+                <dzień>
+                    12
+                </dzień>
+                <miesiąc>
+                    12
+                </miesiąc>
+                <rok>
+                    1977
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>43</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w2"/>
+            <gatunek nazwa="Rock"/>
+        </płyta>
+
+        <płyta płytaID="p9">
+            <tytuł>
+                Their Greates Hits
+            </tytuł>
+            <artysta>
+                Eagles
+            </artysta>
+            <cena waluta="dolarów">
+                85.40
+            </cena>
+            <dataWydania>
+                <dzień>
+                    08
+                </dzień>
+                <miesiąc>
+                    10
+                </miesiąc>
+                <rok>
+                    1976
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>55</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w2"/>
+            <gatunek nazwa="Rock"/>
+        </płyta>
+
+        <płyta płytaID="p10">
+            <tytuł>
+                Dirty Dancing
+            </tytuł>
+            <artysta>
+                Mixed Artists
+            </artysta>
+            <cena waluta="euro">
+                69.99
+            </cena>
+            <dataWydania>
+                <dzień>
+                    07
+                </dzień>
+                <miesiąc>
+                    03
+                </miesiąc>
+                <rok>
+                    1987
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>85</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w2"/>
+            <gatunek nazwa="Pop"/>
+        </płyta>
+
+        <płyta płytaID="p11">
+            <tytuł>
+                Millenium
+            </tytuł>
+            <artysta>
+                Backstreet Boys
+            </artysta>
+            <cena waluta="euro">
+                29.99
+            </cena>
+            <dataWydania>
+                <dzień>
+                    01
+                </dzień>
+                <miesiąc>
+                    11
+                </miesiąc>
+                <rok>
+                    1999
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>2</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w2"/>
+            <gatunek nazwa="Pop"/>
+        </płyta>
+
+        <płyta płytaID="p12">
+            <tytuł>
+                Saturday Night Fever
+            </tytuł>
+            <artysta>
+                Bee Gees
+            </artysta>
+            <cena waluta="dolarów">
+                74.99
+            </cena>
+            <dataWydania>
+                <dzień>
+                    03
+                </dzień>
+                <miesiąc>
+                    01
+                </miesiąc>
+                <rok>
+                    1977
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>3</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w2"/>
+            <gatunek nazwa="Disco"/>
+        </płyta>
+
+        <płyta płytaID="p13">
+            <tytuł>
+                Rumours
+            </tytuł>
+            <artysta>
+                Fleetwood Mac
+            </artysta>
+            <cena waluta="dolarów">
+                69.99
+            </cena>
+            <dataWydania>
+                <dzień>
+                    05
+                </dzień>
+                <miesiąc>
+                    09
+                </miesiąc>
+                <rok>
+                    1977
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>14</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w2"/>
+            <gatunek nazwa="Rock"/>
+        </płyta>
+
+        <płyta płytaID="p14">
+            <tytuł>
+                Come on Over
+            </tytuł>
+            <artysta>
+                Shania Twaina
+            </artysta>
+            <cena waluta="złotych">
+                25.59
+            </cena>
+            <dataWydania>
+                <dzień>
+                    11
+                </dzień>
+                <miesiąc>
+                    06
+                </miesiąc>
+                <rok>
+                    1997
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>77</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w2"/>
+            <gatunek nazwa="Country"/>
+        </płyta>
+
+        <płyta płytaID="p15">
+            <tytuł>
+                Baby One More Time
+            </tytuł>
+            <artysta>
+                Britney Spears
+            </artysta>
+            <cena waluta="dolarów">
+                37.99
+            </cena>
+            <dataWydania>
+                <dzień>
+                    06
+                </dzień>
+                <miesiąc>
+                    09
+                </miesiąc>
+                <rok>
+                    1999
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>123</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w1"/>
+            <gatunek nazwa="Pop"/>
+        </płyta>
+
+        <płyta płytaID="p16">
+            <tytuł>
+                Led Zeppelin IV
+            </tytuł>
+            <artysta>
+                Led Zeppelin
+            </artysta>
+            <cena waluta="złotych">
+                119.99
+            </cena>
+            <dataWydania>
+                <dzień>
+                    07
+                </dzień>
+                <miesiąc>
+                    07
+                </miesiąc>
+                <rok>
+                    1971
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>7</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w1"/>
+            <gatunek nazwa="Rock"/>
+        </płyta>
+
+        <płyta płytaID="p17">
+            <tytuł>
+                Jagged Little Pill
+            </tytuł>
+            <artysta>
+                Alanis Morissette
+            </artysta>
+            <cena waluta="dolarów">
+                80.00
+            </cena>
+            <dataWydania>
+                <dzień>
+                    12
+                </dzień>
+                <miesiąc>
+                    03
+                </miesiąc>
+                <rok>
+                    1995
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>4</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w1"/>
+            <gatunek nazwa="Rock"/>
+        </płyta>
+
+        <płyta płytaID="p18">
+            <tytuł>
+                Sgt. Pepper's Lonely Hearts Club Band
+            </tytuł>
+            <artysta>
+                The Beatles
+            </artysta>
+            <cena waluta="dolarów">
+                100.00
+            </cena>
+            <dataWydania>
+                <dzień>
+                    08
+                </dzień>
+                <miesiąc>
+                    03
+                </miesiąc>
+                <rok>
+                    1967
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>232</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w1"/>
+            <gatunek nazwa="Rock"/>
+        </płyta>
+
+        <płyta płytaID="p19">
+            <tytuł>
+                Falling Into You
+            </tytuł>
+            <artysta>
+                Celine Dion
+            </artysta>
+            <cena waluta="euro">
+                72.99
+            </cena>
+            <dataWydania>
+                <dzień>
+                    06
+                </dzień>
+                <miesiąc>
+                    08
+                </miesiąc>
+                <rok>
+                    1996
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>63</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w1"/>
+            <gatunek nazwa="Pop"/>
+        </płyta>
+
+        <płyta płytaID="p20">
+            <tytuł>
+                Dangerous
+            </tytuł>
+            <artysta>
+                Michael Jackson
+            </artysta>
+            <cena waluta="dolarów">
+                99.99
+            </cena>
+            <dataWydania>
+                <dzień>
+                    11
+                </dzień>
+                <miesiąc>
+                    01
+                </miesiąc>
+                <rok>
+                    1991
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>32</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w1"/>
+            <gatunek nazwa="Pop"/>
+        </płyta>
+
+        <płyta płytaID="p21">
+            <tytuł>
+                Music Box
+            </tytuł>
+            <artysta>
+                Mariah Carey
+            </artysta>
+            <cena waluta="euro">
+                70.00
+            </cena>
+            <dataWydania>
+                <dzień>
+                    03
+                </dzień>
+                <miesiąc>
+                    08
+                </miesiąc>
+                <rok>
+                    1993
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>121</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w1"/>
+            <gatunek nazwa="Pop"/>
+        </płyta>
+
+        <płyta płytaID="p22">
+            <tytuł>
+                1
+            </tytuł>
+            <artysta>
+                The Beatles
+            </artysta>
+            <cena waluta="dolarów">
+                99.00
+            </cena>
+            <dataWydania>
+                <dzień>
+                    30
+                </dzień>
+                <miesiąc>
+                    05
+                </miesiąc>
+                <rok>
+                    2000
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>23</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w1"/>
+            <gatunek nazwa="Rock"/>
+        </płyta>
+
+        <płyta płytaID="p23">
+            <tytuł>
+                Let's Talk About That
+            </tytuł>
+            <artysta>
+                Celine Dion
+            </artysta>
+            <cena waluta="euro">
+                34.99
+            </cena>
+            <dataWydania>
+                <dzień>
+                    25
+                </dzień>
+                <miesiąc>
+                    05
+                </miesiąc>
+                <rok>
+                    1997
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>1</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w1"/>
+            <gatunek nazwa="Pop"/>
+        </płyta>
+
+        <płyta płytaID="p24">
+            <tytuł>
+                Spirits Having Flown
+            </tytuł>
+            <artysta>
+                Bee Gees
+            </artysta>
+            <cena waluta="euro">
+                70.00
+            </cena>
+            <dataWydania>
+                <dzień>
+                    28
+                </dzień>
+                <miesiąc>
+                    11
+                </miesiąc>
+                <rok>
+                    1979
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>11</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w1"/>
+            <gatunek nazwa="Disco"/>
+        </płyta>
+
+        <płyta płytaID="p25">
+            <tytuł>
+                Born in the U.S.A.
+            </tytuł>
+            <artysta>
+                Bruce Springsteen
+            </artysta>
+            <cena waluta="złotych">
+                129.99
+            </cena>
+            <dataWydania>
+                <dzień>
+                    17
+                </dzień>
+                <miesiąc>
+                    02
+                </miesiąc>
+                <rok>
+                    1984
+                </rok>
+            </dataWydania>
+            <liczbaSztuk>3</liczbaSztuk>
+            <wydawcaPłyty wydawcaID="w1"/>
+            <gatunek nazwa="Rock"/>
+        </płyta>
+
+    </katalogPłyt>
+    <wydawcy>
+        <wydawca wydawcaID="w1">
+            <nazwa>Sony</nazwa>
+            <państwo>Japonia</państwo>
+            <dataZałożenia>
+                <dzień>07</dzień>
+                <miesiąc>05</miesiąc>
+                <rok>1946</rok>
+            </dataZałożenia>
+            <telefon>502-934-581</telefon>
+        </wydawca>
+        <wydawca wydawcaID="w2">
+            <nazwa>PWM</nazwa>
+            <państwo>Polska</państwo>
+            <dataZałożenia>
+                <dzień>01</dzień>
+                <miesiąc>01</miesiąc>
+                <rok>1946</rok>
+            </dataZałożenia>
+            <telefon>471-769-007</telefon>
+        </wydawca>
+        <wydawca wydawcaID="w3">
+            <nazwa>Wytwórnia Fonograf</nazwa>
+            <państwo>Polska</państwo>
+            <dataZałożenia>
+                <dzień>12</dzień>
+                <miesiąc>05</miesiąc>
+                <rok>1956</rok>
+            </dataZałożenia>
+            <adresEmail>pszemo230@onet.com</adresEmail>
+        </wydawca>
+        <wydawca wydawcaID="w4">
+            <nazwa>Mystic Production</nazwa>
+            <państwo>Niemcy</państwo>
+            <dataZałożenia>
+                <dzień>01</dzień>
+                <miesiąc>11</miesiąc>
+                <rok>1974</rok>
+            </dataZałożenia>
+            <telefon>512-924-582</telefon>
+        </wydawca>
+        <wydawca wydawcaID="w5">
+            <nazwa>Prosto</nazwa>
+            <państwo>Polska</państwo>
+            <dataZałożenia>
+                <dzień>01</dzień>
+                <miesiąc>01</miesiąc>
+                <rok>2001</rok>
+            </dataZałożenia>
+            <telefon>601-934-581</telefon>
+        </wydawca>
+        <wydawca wydawcaID="w6">
+            <nazwa>Nevada Music</nazwa>
+            <państwo>USA</państwo>
+            <dataZałożenia>
+                <dzień>05</dzień>
+                <miesiąc>07</miesiąc>
+                <rok>1984</rok>
+            </dataZałożenia>
+            <adresEmail>sassd@gmail.pl</adresEmail>
+        </wydawca>
+    </wydawcy>
+    <wykonawcy>
+        <wykonawca wykonawcaID="wyk1">
+            <imie>Zbigniew</imie>
+            <nazwisko>Łęcina</nazwisko>
+        </wykonawca>
+        <wykonawca wykonawcaID="wyk2">
+            <imie>Bony</imie>
+            <nazwisko>Tyler</nazwisko>
+        </wykonawca>
+        <wykonawca wykonawcaID="wyk3">
+            <imie>Mick</imie>
+            <nazwisko>Jagger</nazwisko>
+        </wykonawca>
+        <wykonawca wykonawcaID="wyk4">
+            <imie>Krzysztof</imie>
+            <nazwisko>Jarzyna</nazwisko>
+        </wykonawca>
+        <wykonawca wykonawcaID="wyk5">
+            <imie>Jan</imie>
+            <nazwisko>Potocki</nazwisko>
+        </wykonawca>
+    </wykonawcy>
+</płytoteka>

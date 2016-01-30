@@ -1,0 +1,3 @@
+Aby wygenerowaæ klasy na podstawie pliku xsd nale¿y w pisaæ w konsoli:
+
+C:\Users\Przemek_Swiderski\Downloads\rok3\PKOM\ZAD4\zad4>"%JAVA_HOME%\bin\xjc" -encoding UTF-8 -d . zad2.xsd

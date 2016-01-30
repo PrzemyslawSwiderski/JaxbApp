@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/Przemek_Swiderski/Desktop/zad4/zad2.xsd" uri="xml-resources/jaxb/zadanie4/zad2.xsd"/>
+    <system systemId="file:/C:/Users/Przemek_Swiderski/Desktop/zad4/zad2_TypyProste.xsd" uri="xml-resources/jaxb/zadanie4/zad2_TypyProste.xsd"/>
+</catalog>
